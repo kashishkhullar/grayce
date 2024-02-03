@@ -1,0 +1,15 @@
+{
+  "name": "grayce",
+  "version": "1.0.0",
+  "description": "Member\r ```json",
+  "main": "grayce.js",
+  "scripts": {
+    "start": "node grayce.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@datastructures-js/heap": "^4.3.3",
+    "luxon": "^3.4.4"
+  }
+}
