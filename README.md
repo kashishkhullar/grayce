@@ -73,8 +73,22 @@ Following are the assumptions made for this exercise:
 ## Steps to run
 
 1. Clone the repository
-2. Run `npm install`
-3. Run `npm start`
+
+```bash
+git clone https://github.com/kashishkhullar/grayce.git
+```
+
+2. Install the dependencies
+
+```bash
+npm install
+```
+
+3. Run the code
+
+```bash
+npm start
+```
 
 ## Design Choices in Code
 
