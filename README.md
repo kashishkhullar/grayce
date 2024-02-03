@@ -141,7 +141,7 @@ const score =
 
 1. Language data would be more helpful in assigning members to care partners. For example, if the care recipient speaks Spanish, we can assign them to a care partner that speaks Spanish.
 2. A heap data structure could be utilized to store the care partners and its cases to improve the time complexity of the code. (However, the care partner will be shared among multiple heaps based on the use_case and timezone of the care recipient if the same storage structure is followed).
-3. Given there are `N members`, `M care partners`, `P specialties`, the time complexity of the code is `O(NlogN + M*P + N*M)``.
+3. Given there are `N members`, `M care partners`, `P specialties`, the time complexity of the code is `O(NlogN + M*P + N*M)`.
 4. In real world scenario, where we will have large number of members, we won't be sorting the values and members are joining the system in real time, we need a priority to which will sort the members based on their acuity and then assign the top.
 5. Instead of using the scores, each timezone can be assigned a min heap with care partner id and their cases. This will allow us to assign the member to the care partner with the least cases in the same timezone first and the heapify operation will take `O(logM)` time.
 6. We should put a max capacity to all the care partners and then assign the members to the care partners based on their capacity and make the load balancer such that it removes the care partner from the heap if the capacity is full.
