@@ -72,6 +72,9 @@ Following are the assumptions made for this exercise:
 
 ## Steps to run
 
+Install Node.js and NPM from [here](https://nodejs.org/en/download/) if not already installed.  
+Then follow the following steps:
+
 1. Clone the repository
 
 ```bash
